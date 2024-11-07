@@ -9,7 +9,7 @@ class Post:
         return 
     
     def __repr__(self):
-        return f"Post({self.id}, {self.title}, {self.content}, {self.views}, {self.user_id})"
+        return f"Postt({self.id}, {self.title}, {self.content}, {self.views}, {self.user_id})"
     
     def __eq__(self, other):
         return self.__dict__ == other.__dict__
